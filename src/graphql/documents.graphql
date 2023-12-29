@@ -1,0 +1,17 @@
+query Episodes {
+  episodes {
+    results {
+      episode
+      name
+    }
+  }
+}
+
+query Characters {
+  characters {
+    results {
+      name
+      species
+    }
+  }
+}
